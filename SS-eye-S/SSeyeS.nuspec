@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>SSeyeS</id>
+        <version>1.2016.3.1</version>
+        <title>SSeyeS</title>
+        <authors>Random Thunks</authors>
+        <owners>Random Thunks</owners>
+        <licenseUrl>https://sseyes.codeplex.com/license</licenseUrl>
+        <projectUrl>https://sseyes.codeplex.com/</projectUrl>
+        <iconUrl>http://a.randomthunks.com/i.png</iconUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>An easy to use simplified API surrounding the SSIS components to allow the creation of SSIS packages within code.</description>
+        <releaseNotes>Stable v1.0</releaseNotes>
+        <copyright>Copyright 2015 Random Thunks (http://Random-Thunks.com)</copyright>
+        <tags>SSIS SSeyeS C# DTS</tags>
+    </metadata>
+    <files>
+        <file src="bin\Release\SSeyeS.dll" target="lib\net45\SSeyeS.dll" />
+        <file src="bin\Release\SSeyeS.XML" target="lib\net45\SSeyeS.XML" />
+    </files>
+</package>
